@@ -91,9 +91,52 @@
 
 .dashboard-content {
   background: #fff;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 10px;
+  padding-top: 10px;
   color: #000;
+}
+.dashboard-content h6 {
+  font-size: 0.875rem;
+}
+.dashboard-content .items-dash {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+.dashboard-content .item {
+  padding: 5px;
+  border-radius: 10px;
+}
+.dashboard-content .item .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.received {
+  background: #eeeaff;
+  color: #2c0bb7;
+  border-bottom: 3px solid #2c0bb7;
+  font-weight: bolder;
+}
+
+.enquiries {
+  background: #e2f5ff;
+  color: #3591b4;
+  border-bottom: 3px solid #3591b4;
+  font-weight: bolder;
+}
+
+.employees {
+  background: #e0f3e7;
+  color: #7bb0ba;
+  border-bottom: 3px solid #7bb0ba;
+  font-weight: bolder;
+}
+
+.mgt-enquiry h6 {
+  margin-left: 30px;
 }
 
 body {

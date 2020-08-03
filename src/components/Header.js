@@ -26,7 +26,7 @@ const Header = () => {
               <div>
                 <img src={menu} alt="menu icon" style={{ maxWidth: "20px" }} />
               </div>
-              <div class="main-menu">
+              <div className="main-menu">
                 Menu / <span className="dashboard">Dashboard</span>{" "}
                 <FiChevronDown />
               </div>

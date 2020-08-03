@@ -9,10 +9,10 @@ function App() {
       <Header />
       <main className="content-area">
         <div className="row">
-          <div className="col l8">
+          <div className="col l9">
             <Dashboard />
           </div>
-          <div className="col l4">Sidebar</div>
+          <div className="col l3">Sidebar</div>
         </div>
       </main>
     </div>
