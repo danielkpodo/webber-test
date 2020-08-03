@@ -1,0 +1,19 @@
+@import "./scss/partials/variables";
+@import "./scss/partials/main-header";
+@import "./scss/partials/content-area";
+@import "./scss/partials/dashboard";
+
+body {
+  background: $body-bg;
+  overflow: hidden;
+  color: #fff;
+  font: {
+    size: 0.875rem;
+    family: $body-font;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

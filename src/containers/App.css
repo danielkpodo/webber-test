@@ -1,3 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.main-header .left-header {
+  background: #192354;
+  padding: 1rem 0.625rem;
+  color: #fff;
+  height: 100px;
+}
+.main-header .left-header .letter {
+  background: #1e2b6f;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+}
+.main-header .right-header {
+  background: #1e2b6f;
+  height: 100px;
+}
+.main-header .right-header .user-tasks {
+  background: #1e2b6f;
+  margin-left: -11px;
+  margin-right: -10px;
+  height: 59.5px;
+}
 
+.logout {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}
+
+.main-menu {
+  margin-left: 0.625rem;
+}
+
+.log {
+  color: #455eee;
+}
+.log a {
+  color: #fff;
+  opacity: 0.8;
+}
+.log a:hover {
+  color: gold;
+  opacity: 1;
+  transition: 400ms ease-in-out;
+}
+
+.dashboard {
+  color: #455eee;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-header .profile {
+  width: 40px;
+  padding: 2px;
+  padding: 5px;
+}
+
+.navlinks {
+  padding: 1rem 0.625rem;
+}
+
+.manager {
+  display: flex;
+  justify-content: space-around;
+}
+.manager a {
+  color: #fff;
+  opacity: 0.8;
+}
+.manager a:hover {
+  color: gold;
+  opacity: 1;
+  transition: 400ms ease-in-out;
+}
+
+.nav-item a {
+  color: #fff;
+  opacity: 0.8;
+}
+.nav-item a:hover {
+  color: gold;
+  opacity: 1;
+  transition: 400ms ease-in-out;
+}
+
+.dashboard-content {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  color: #000;
+}
+
+body {
+  background: #f0f5fb;
+  overflow: hidden;
+  color: #fff;
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
 
 /*# sourceMappingURL=App.css.map */
