@@ -7,12 +7,12 @@ import DashboardItem from "./DashboardItem";
 
 const Dashboard = () => {
   return (
-    <div className="dashboard-content z-depth-2">
+    <div className="dashboard-content z-depth-1">
       <div className="row">
-        <div className="container-fluid">
+        <div className="container-fluid dash-area">
           <div className="row items-dash">
             <div className="col l3 mgt-enquiry">
-              <h6>
+              <h6 style={{ textAlign: "right" }}>
                 <BsArrowLeft /> Enquiry Management
               </h6>
             </div>
@@ -28,7 +28,7 @@ const Dashboard = () => {
               <DashboardItem
                 styler="enquiries"
                 heading="New Enquiries"
-                count={220}
+                count={300}
                 imgPath={enquiry}
               />
             </div>

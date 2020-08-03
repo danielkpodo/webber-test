@@ -9,10 +9,10 @@ const Header = () => {
     <div className="row main-header">
       <div className="col s4 left-header">
         <div className="row">
-          <div className="col s6">
+          <div className="col l2">
             <p className="letter z-depth-2 circle ">b</p>
           </div>
-          <div className="col s6">
+          <div className="col l10 menu-dash">
             <div className="logout">
               <p>
                 <BsArrowLeft />

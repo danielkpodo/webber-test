@@ -1,0 +1,18 @@
+.form-section {
+  background: #fff;
+  border-radius: 10px;
+  padding-top: 10px;
+  color: #000;
+  .form {
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+
+    .text-field {
+      background: #f1f5ff;
+      color: #9c9c9c;
+      border: 1px solid #f1f5ff;
+      border-radius: 5px;
+    }
+  }
+}

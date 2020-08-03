@@ -19,7 +19,7 @@
   }
 
   .item {
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 
     .footer {
@@ -53,4 +53,8 @@
   h6 {
     margin-left: 30px;
   }
+}
+
+.dash-area {
+  max-width: 960px;
 }
