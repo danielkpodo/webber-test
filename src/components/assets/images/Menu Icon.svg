@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="31.093" viewBox="0 0 39 31.093">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #455eee;
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: #455eee;
+      }
+    </style>
+  </defs>
+  <g id="Menu_Icon" data-name="Menu Icon" transform="translate(-206 -98)">
+    <g id="Path_2" data-name="Path 2" class="cls-1" transform="translate(206 98)">
+      <path class="cls-3" d="M0,0H13.782l7.387,7.449H39V31.093H0Z"/>
+      <path class="cls-4" d="M 2 2.000003814697266 L 2 29.0928840637207 L 37 29.0928840637207 L 37 9.449073791503906 L 21.16901016235352 9.449073791503906 L 20.3356990814209 9.449073791503906 L 19.74892044067383 8.857383728027344 L 12.94840431213379 2.000003814697266 L 2 2.000003814697266 M 0 3.814697265625e-06 L 13.78170967102051 3.814697265625e-06 L 21.16901016235352 7.449073791503906 L 39 7.449073791503906 L 39 31.0928840637207 L 0 31.0928840637207 L 0 3.814697265625e-06 Z"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" class="cls-2" y2="8" transform="translate(224.5 115.5)"/>
+    <line id="Line_3" data-name="Line 3" class="cls-2" y2="12" transform="translate(219.5 111.5)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-2" y2="12" transform="translate(229.5 111.5)"/>
+  </g>
+</svg>

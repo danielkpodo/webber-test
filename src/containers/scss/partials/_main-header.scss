@@ -1,0 +1,97 @@
+.main-header {
+  .left-header {
+    background: $darker-blue;
+    padding: 1rem 0.625rem;
+    color: #fff;
+    height: 100px;
+
+    .letter {
+      background: $dark-blue;
+      padding: 5px;
+      width: 30px;
+      text-align: center;
+    }
+  }
+
+  .right-header {
+    background: $dark-blue;
+    height: 100px;
+
+    .user-tasks {
+      background: $dark-blue;
+      margin-left: -11px;
+      margin-right: -10px;
+      height: 59.5px;
+    }
+  }
+}
+
+.logout {
+  display: flex;
+}
+.menu {
+  display: flex;
+}
+
+.main-menu {
+  margin-left: 0.625rem;
+}
+
+.log {
+  color: $light-blue;
+
+  a {
+    color: #fff;
+    opacity: 0.8;
+    &:hover {
+      color: gold;
+      opacity: 1;
+      transition: 400ms ease-in-out;
+    }
+  }
+}
+
+.dashboard {
+  color: $light-blue;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  .profile {
+    width: 40px;
+    padding: 2px;
+    padding: 5px;
+  }
+}
+
+.navlinks {
+  padding: 1rem 0.625rem;
+}
+
+.manager {
+  display: flex;
+  justify-content: space-around;
+  a {
+    color: #fff;
+    opacity: 0.8;
+
+    &:hover {
+      color: gold;
+      opacity: 1;
+      transition: 400ms ease-in-out;
+    }
+  }
+}
+
+.nav-item {
+  a {
+    color: #fff;
+    opacity: 0.8;
+    &:hover {
+      color: gold;
+      opacity: 1;
+      transition: 400ms ease-in-out;
+    }
+  }
+}
