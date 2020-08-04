@@ -210,6 +210,16 @@
   border-radius: 100%;
 }
 
+.notifications {
+  display: flex;
+  justify-content: flex-end;
+}
+.notifications a {
+  margin-right: 1rem;
+  color: #444;
+  font-size: 1.25rem;
+}
+
 #footer {
   background: #ededed;
   color: #000;

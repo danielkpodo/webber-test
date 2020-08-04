@@ -5,6 +5,7 @@ import Dashboard from "../components/Dashboard";
 import Form from "../components/forms/Form";
 import Table from "../components/table/Table";
 import Footer from "../components/Footer";
+import Notifications from "../components/sidebar/Notifications";
 
 function App() {
   return (
@@ -17,11 +18,11 @@ function App() {
             <Form />
             <Table />
           </div>
-          <div className="col l3">Sidebar</div>
+          <div className="col l3">
+            <Notifications />
+          </div>
         </div>
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </main>
     </div>
   );
