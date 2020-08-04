@@ -3,4 +3,13 @@
   background: #fff;
   border-radius: 10px;
   color: #000;
+
+  .header-btns {
+    display: flex;
+    justify-content: flex-end;
+    a {
+      text-transform: capitalize;
+      border-radius: 8px;
+    }
+  }
 }

@@ -173,7 +173,8 @@
 }
 .enquiry-btn a {
   text-transform: capitalize;
-  background: #1e2b6f;
+  background: #455eee;
+  border-radius: 8px;
 }
 
 .enquiry-table {
@@ -182,10 +183,18 @@
   border-radius: 10px;
   color: #000;
 }
+.enquiry-table .header-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+.enquiry-table .header-btns a {
+  text-transform: capitalize;
+  border-radius: 8px;
+}
 
 body {
   background: #f0f5fb;
-  overflow: hidden;
+  overflow-x: hidden;
   color: #fff;
   font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
