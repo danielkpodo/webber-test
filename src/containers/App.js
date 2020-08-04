@@ -6,6 +6,7 @@ import Form from "../components/forms/Form";
 import Table from "../components/table/Table";
 import Footer from "../components/Footer";
 import Notifications from "../components/sidebar/Notifications";
+import Calender from "../components/sidebar/Calender";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
             <Form />
             <Table />
           </div>
-          <div className="col l3">
+          <div className="col l3 sidebar-resizer">
             <Notifications />
+            <Calender />
           </div>
         </div>
         <Footer />

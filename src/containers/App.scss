@@ -5,7 +5,7 @@
 @import "./scss/partials/forms";
 @import "./scss/partials/enquiry-table";
 @import "./scss/partials/notifications";
-
+@import "./scss/partials/calender";
 @import "./scss/partials/footer";
 
 body {
@@ -26,4 +26,9 @@ img {
 .resizer {
   max-width: 1000px;
   margin: 0 25px;
+}
+
+.sidebar-resizer {
+  max-width: 400px;
+  margin: 0 auto;
 }
