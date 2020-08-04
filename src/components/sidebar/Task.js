@@ -15,7 +15,7 @@ const Task = () => {
         </div>
         <div className="timeline">
           <p>
-            <BsClock class="clock" /> 7 Dec, 2019 | 10:00 AM
+            <BsClock className="clock" /> 7 Dec, 2019 | 10:00 AM
           </p>
         </div>
       </div>

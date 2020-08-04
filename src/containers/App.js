@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Notifications from "../components/sidebar/Notifications";
 import Calender from "../components/sidebar/Calender";
 import Task from "../components/sidebar/Task";
+import Performance from "../components/sidebar/Performance";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Notifications />
             <Calender />
             <Task />
+            <Performance />
           </div>
         </div>
       </main>

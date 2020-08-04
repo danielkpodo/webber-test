@@ -47,7 +47,7 @@ const Form = () => {
                 id="detail"
                 cols="30"
                 rows="50"
-                className="materialize-textarea text-field"
+                className="materialize-textarea"
                 style={{ height: "65px" }}
               ></textarea>
             </div>
@@ -60,7 +60,10 @@ const Form = () => {
               <p>Services</p>
             </div>
             <div className="field">
-              <select style={{ height: "40px", width: "220px" }}>
+              <select
+                style={{ height: "40px", width: "220px" }}
+                className="text-field"
+              >
                 <option value="nothing">choose option</option>
                 <option value="1">Graphic design</option>
                 <option value="2">Digital marketing</option>
