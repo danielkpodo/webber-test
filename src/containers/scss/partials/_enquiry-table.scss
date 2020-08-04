@@ -3,7 +3,9 @@
   background: #fff;
   border-radius: 10px;
   color: #000;
-
+  th {
+    font-weight: normal;
+  }
   .header-btns {
     display: flex;
     justify-content: flex-end;
@@ -11,5 +13,22 @@
       text-transform: capitalize;
       border-radius: 8px;
     }
+  }
+}
+
+.pager {
+  display: flex;
+  justify-content: flex-end;
+  ul li > a {
+    font-size: 10px;
+  }
+
+  .pg-icon {
+    font-size: 10px;
+  }
+
+  ul li.active {
+    background-color: #333;
+    border-radius: 100%;
   }
 }

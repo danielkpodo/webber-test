@@ -183,6 +183,9 @@
   border-radius: 10px;
   color: #000;
 }
+.enquiry-table th {
+  font-weight: normal;
+}
 .enquiry-table .header-btns {
   display: flex;
   justify-content: flex-end;
@@ -190,6 +193,21 @@
 .enquiry-table .header-btns a {
   text-transform: capitalize;
   border-radius: 8px;
+}
+
+.pager {
+  display: flex;
+  justify-content: flex-end;
+}
+.pager ul li > a {
+  font-size: 10px;
+}
+.pager .pg-icon {
+  font-size: 10px;
+}
+.pager ul li.active {
+  background-color: #333;
+  border-radius: 100%;
 }
 
 body {

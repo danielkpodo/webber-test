@@ -2,6 +2,7 @@ import React from "react";
 import TableHeader from "./TableHeader";
 import TableRow from "./TableRow";
 import persons from "./MOCK_DATA.json";
+import Pagination from "./Pagination";
 
 const Table = () => {
   const personnels = persons.map((person, index) => (
@@ -27,6 +28,11 @@ const Table = () => {
         </thead>
         <tbody>{personnels}</tbody>
       </table>
+      <div className="row">
+        <div className="col l12 pager">
+          <Pagination />
+        </div>
+      </div>
     </div>
   );
 };
