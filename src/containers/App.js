@@ -7,6 +7,7 @@ import Table from "../components/table/Table";
 import Footer from "../components/Footer";
 import Notifications from "../components/sidebar/Notifications";
 import Calender from "../components/sidebar/Calender";
+import Task from "../components/sidebar/Task";
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
           <div className="col l3 sidebar-resizer">
             <Notifications />
             <Calender />
+            <Task />
           </div>
         </div>
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 }
