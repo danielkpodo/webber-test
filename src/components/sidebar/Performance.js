@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Bar } from "react-chartjs-2";
 
 const Performance = () => {
@@ -8,7 +8,7 @@ const Performance = () => {
   return (
     <div className="performance">
       <h6>Visitor Performance</h6>
-      <div className="metrics">
+      <div className="metrics z-depth-1">
         <select name="year" id="year" className="year-metrics">
           <option value="#!">Curent Year</option>
           <option value="#!">2019</option>
@@ -32,7 +32,24 @@ const Performance = () => {
           }}
           options={{
             responsive: true,
-            tooltips: { enabled: true }
+            tooltips: { enabled: true },
+            scales: {
+              xAxes: [
+                {
+                  gridLines: {
+                    display: false
+                  }
+                }
+              ],
+              yAxes: [
+                {
+                  gridLines: {
+                    display: true,
+                    borderDash: [8, 4]
+                  }
+                }
+              ]
+            }
           }}
         />
       </div>
