@@ -7,12 +7,12 @@ import DashboardItem from "./DashboardItem";
 
 const Dashboard = () => {
   return (
-    <div className="dashboard-content z-depth-1">
+    <div className="dashboard-content z-depth-1 resizer">
       <div className="row">
         <div className="container-fluid dash-area">
           <div className="row items-dash">
             <div className="col l3 mgt-enquiry">
-              <h6 style={{ textAlign: "right" }}>
+              <h6 style={{ textAlign: "right", marginRight: "10px" }}>
                 <BsArrowLeft /> Enquiry Management
               </h6>
             </div>

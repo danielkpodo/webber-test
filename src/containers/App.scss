@@ -3,6 +3,7 @@
 @import "./scss/partials/content-area";
 @import "./scss/partials/dashboard";
 @import "./scss/partials/forms";
+@import "./scss/partials/enquiry-table";
 
 body {
   background: $body-bg;
@@ -17,4 +18,9 @@ body {
 img {
   max-width: 100%;
   display: block;
+}
+
+.resizer {
+  max-width: 1000px;
+  margin: 0 25px;
 }

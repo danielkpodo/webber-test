@@ -146,12 +146,12 @@
 .form-section {
   background: #fff;
   border-radius: 10px;
-  padding-top: 10px;
+  padding: 1.5rem 1.5rem;
   color: #000;
 }
 .form-section .form {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: #000;
 }
 .form-section .form .text-field {
@@ -159,6 +159,28 @@
   color: #9c9c9c;
   border: 1px solid #f1f5ff;
   border-radius: 5px;
+  max-width: 100%;
+}
+
+.label p {
+  text-align: center;
+  max-width: 100px;
+  margin-right: 0.625rem;
+}
+
+.enquiry-btn {
+  text-align: right;
+}
+.enquiry-btn a {
+  text-transform: capitalize;
+  background: #1e2b6f;
+}
+
+.enquiry-table {
+  padding: 1.5rem 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  color: #000;
 }
 
 body {
@@ -172,6 +194,11 @@ body {
 img {
   max-width: 100%;
   display: block;
+}
+
+.resizer {
+  max-width: 1000px;
+  margin: 0 25px;
 }
 
 /*# sourceMappingURL=App.css.map */
