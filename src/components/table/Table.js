@@ -14,7 +14,7 @@ const Table = () => {
       style={{ marginTop: "20px" }}
     >
       <TableHeader />
-      <table className="table highlight responsive-table">
+      <table className="highlight responsive-table">
         <thead>
           <tr>
             <th># Item</th>
@@ -29,7 +29,7 @@ const Table = () => {
         <tbody>{personnels}</tbody>
       </table>
       <div className="row">
-        <div className="col l12 pager">
+        <div className="col s12 m12 l12 pager">
           <Pagination />
         </div>
       </div>

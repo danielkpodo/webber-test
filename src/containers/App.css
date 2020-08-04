@@ -16,10 +16,10 @@
   height: 100px;
 }
 .main-header .right-header .user-tasks {
-  background: #1e2b6f;
+  background: #455eee;
   margin-left: -11px;
   margin-right: -10px;
-  height: 59.5px;
+  height: 50px;
 }
 
 .logout {
@@ -56,9 +56,11 @@
   justify-content: space-between;
 }
 .profile-header .profile {
-  width: 40px;
-  padding: 2px;
+  width: 50px;
   padding: 5px;
+}
+.profile-header .profile .profile-img {
+  border-radius: 5px 10px;
 }
 
 .navlinks {
@@ -68,6 +70,8 @@
 .manager {
   display: flex;
   justify-content: space-around;
+  max-width: 25rem;
+  height: 45px;
 }
 .manager a {
   color: #fff;
