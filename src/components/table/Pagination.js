@@ -2,7 +2,7 @@ import React from "react";
 
 const Pagination = () => {
   return (
-    <ul class="pagination">
+    <ul className="pagination">
       <li className="waves-effect">
         <a href="#!">
           <i className="material-icons pg-icon">chevron_left</i>

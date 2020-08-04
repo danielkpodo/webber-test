@@ -210,6 +210,14 @@
   border-radius: 100%;
 }
 
+#footer {
+  background: #ededed;
+  color: #000;
+  text-transform: uppercase;
+  height: 50px;
+  margin-top: -0.625rem;
+}
+
 body {
   background: #f0f5fb;
   overflow-x: hidden;

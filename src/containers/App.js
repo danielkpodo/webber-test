@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Dashboard from "../components/Dashboard";
 import Form from "../components/forms/Form";
 import Table from "../components/table/Table";
+import Footer from "../components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </div>
           <div className="col l3">Sidebar</div>
         </div>
+        <footer>
+          <Footer />
+        </footer>
       </main>
     </div>
   );
