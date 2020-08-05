@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/webber-test/static/css/main.5dc44daf.chunk.css",
+    "main.js": "/webber-test/static/js/main.51ac8c0d.chunk.js",
+    "main.js.map": "/webber-test/static/js/main.51ac8c0d.chunk.js.map",
+    "runtime-main.js": "/webber-test/static/js/runtime-main.5e745cc7.js",
+    "runtime-main.js.map": "/webber-test/static/js/runtime-main.5e745cc7.js.map",
+    "static/css/2.260b3d15.chunk.css": "/webber-test/static/css/2.260b3d15.chunk.css",
+    "static/js/2.24291e87.chunk.js": "/webber-test/static/js/2.24291e87.chunk.js",
+    "static/js/2.24291e87.chunk.js.map": "/webber-test/static/js/2.24291e87.chunk.js.map",
+    "index.html": "/webber-test/index.html",
+    "precache-manifest.d273d6d92e6a5cc2ab9144246103ee76.js": "/webber-test/precache-manifest.d273d6d92e6a5cc2ab9144246103ee76.js",
+    "service-worker.js": "/webber-test/service-worker.js",
+    "static/css/2.260b3d15.chunk.css.map": "/webber-test/static/css/2.260b3d15.chunk.css.map",
+    "static/css/main.5dc44daf.chunk.css.map": "/webber-test/static/css/main.5dc44daf.chunk.css.map",
+    "static/js/2.24291e87.chunk.js.LICENSE.txt": "/webber-test/static/js/2.24291e87.chunk.js.LICENSE.txt",
+    "static/media/Menu Icon.svg": "/webber-test/static/media/Menu Icon.e34d26d8.svg",
+    "static/media/activity.svg": "/webber-test/static/media/activity.327c71bc.svg",
+    "static/media/new.svg": "/webber-test/static/media/new.5e63c132.svg",
+    "static/media/profit.svg": "/webber-test/static/media/profit.0dacf0be.svg",
+    "static/media/yuna.jpg": "/webber-test/static/media/yuna.63f9d123.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e745cc7.js",
+    "static/css/2.260b3d15.chunk.css",
+    "static/js/2.24291e87.chunk.js",
+    "static/css/main.5dc44daf.chunk.css",
+    "static/js/main.51ac8c0d.chunk.js"
+  ]
+}
