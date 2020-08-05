@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d78d5b3f5add2d3c1601aeabdd364fd",
+    "revision": "1c2f54cee18c95ed7e49df9925888eb5",
     "url": "/webber-test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webber-test/static/css/2.260b3d15.chunk.css"
   },
   {
-    "revision": "525fb67ee6abc435619e",
-    "url": "/webber-test/static/css/main.5dc44daf.chunk.css"
+    "revision": "dd6cbcc8075b920640fc",
+    "url": "/webber-test/static/css/main.fca6cf83.chunk.css"
   },
   {
     "revision": "a39cc7a244b11d12a37c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webber-test/static/js/2.24291e87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "525fb67ee6abc435619e",
+    "revision": "dd6cbcc8075b920640fc",
     "url": "/webber-test/static/js/main.51ac8c0d.chunk.js"
   },
   {
