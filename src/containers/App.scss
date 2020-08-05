@@ -14,7 +14,7 @@
 body {
   background: $body-bg;
   color: #fff;
-  // overflow-x: hidden;
+  overflow-x: hidden;
   font: {
     size: 0.875rem;
     family: $body-font;
@@ -25,13 +25,3 @@ img {
   max-width: 100%;
   display: block;
 }
-
-// .resizer {
-//   max-width: 62.5rem;
-//   margin: 0 25px;
-// }
-
-// .sidebar-resizer {
-//   max-width: 400px;
-//   margin: 0 auto;
-// }

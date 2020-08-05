@@ -235,6 +235,7 @@
 .notifications {
   display: flex;
   justify-content: flex-end;
+  padding: 1rem;
 }
 .notifications a {
   margin-right: 1rem;
@@ -245,7 +246,7 @@
 .calender {
   background: #fff;
   color: #000;
-  padding: 0.625rem 0.625rem;
+  padding: 0.625rem 1rem;
   border-radius: 0.625rem;
 }
 .calender h6 {
@@ -255,7 +256,16 @@
 .calender .calender-view {
   border: none;
 }
+@media (max-width: 768px) {
+  .calender .calender-view {
+    max-width: 100%;
+    margin: auto;
+  }
+}
 
+.task {
+  margin: 0.625rem 0;
+}
 .task h6 {
   color: #555;
   font-size: 14px;
@@ -267,7 +277,7 @@
   border-radius: 10px;
   color: #000;
   padding: 0.625rem;
-  border-left: 10px solid red;
+  border-left: 5px solid red;
 }
 .task .content .duty {
   display: flex;
@@ -285,6 +295,9 @@
   font-size: 10px;
 }
 
+.performance {
+  margin: 0.625rem 0;
+}
 .performance h6 {
   color: #555;
   font-size: 14px;
@@ -313,11 +326,13 @@
   text-transform: uppercase;
   height: 50px;
   margin-top: -0.625rem;
+  margin-bottom: -20px;
 }
 
 body {
   background: #f0f5fb;
   color: #fff;
+  overflow-x: hidden;
   font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
 }
