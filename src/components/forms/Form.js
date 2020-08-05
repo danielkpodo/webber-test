@@ -9,7 +9,7 @@ const Form = () => {
     <div className="form-section z-depth-1 resizer">
       <form method="post" action="#!">
         <div className="row">
-          <div className="col l4 form">
+          <div className="col l4 m6 s12 form">
             <div className="label">
               <p>Name</p>
             </div>
@@ -23,7 +23,7 @@ const Form = () => {
               />
             </div>
           </div>
-          <div className="col l4 form">
+          <div className="col l4 m6 s12 form">
             <div className="label">
               <p>Email</p>
             </div>
@@ -37,7 +37,7 @@ const Form = () => {
               />
             </div>
           </div>
-          <div className="col l4 form">
+          <div className="col l4 m6 s12 form">
             <div className="label">
               <p>Detail</p>
             </div>
@@ -55,7 +55,7 @@ const Form = () => {
         </div>
 
         <div className="row">
-          <div className="col l4 form">
+          <div className="col l4 m6 s12 form">
             <div className="label">
               <p>Services</p>
             </div>
@@ -71,7 +71,7 @@ const Form = () => {
               </select>
             </div>
           </div>
-          <div className="col l4 form">
+          <div className="col l4 m6 s12 form">
             <div className="label">
               <p>Phone</p>
             </div>
@@ -86,7 +86,7 @@ const Form = () => {
               />
             </div>
           </div>
-          <div className="col l4">
+          <div className="col l4 m6 s12">
             <div className="enquiry-btn">
               <a
                 href="#!"

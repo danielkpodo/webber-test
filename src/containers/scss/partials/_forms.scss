@@ -7,12 +7,14 @@
     display: flex;
     justify-content: space-evenly;
     color: #000;
+    margin-bottom: 1rem;
 
     .text-field {
       background: #f1f5ff;
       color: #9c9c9c;
       border: 1px solid #f1f5ff;
       border-radius: 5px;
+      padding: 0 0.625rem;
       max-width: 100%;
     }
   }
@@ -32,5 +34,6 @@
     text-transform: capitalize;
     background: #455eee;
     border-radius: 8px;
+    margin-top: 1.25rem;
   }
 }
