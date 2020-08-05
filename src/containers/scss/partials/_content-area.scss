@@ -1,5 +1,5 @@
-@media screen and (min-width: 1600px) {
-  .content-area {
+.content-area {
+  @include large {
     max-width: 1400px;
     padding: 3rem;
     margin: 0 auto;

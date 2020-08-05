@@ -16,12 +16,12 @@ function App() {
       <Header />
       <main className="content-area">
         <div className="row">
-          <div className="col l9">
+          <div className="col l9 m12 s12">
             <Dashboard />
             <Form />
             <Table />
           </div>
-          <div className="col l3 sidebar-resizer">
+          <div className="col l3 m12 s12 sidebar-resizer">
             <Notifications />
             <Calender />
             <Task />

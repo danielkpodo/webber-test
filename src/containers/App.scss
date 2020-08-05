@@ -1,3 +1,4 @@
+@import "./scss/partials/media";
 @import "./scss/partials/variables";
 @import "./scss/partials/main-header";
 @import "./scss/partials/content-area";
@@ -12,8 +13,8 @@
 
 body {
   background: $body-bg;
-  overflow-x: hidden;
   color: #fff;
+  // overflow-x: hidden;
   font: {
     size: 0.875rem;
     family: $body-font;
@@ -25,12 +26,12 @@ img {
   display: block;
 }
 
-.resizer {
-  max-width: 1000px;
-  margin: 0 25px;
-}
+// .resizer {
+//   max-width: 62.5rem;
+//   margin: 0 25px;
+// }
 
-.sidebar-resizer {
-  max-width: 400px;
-  margin: 0 auto;
-}
+// .sidebar-resizer {
+//   max-width: 400px;
+//   margin: 0 auto;
+// }

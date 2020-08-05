@@ -6,56 +6,64 @@ import profile from "../components/assets/images/yuna.jpg";
 
 const Header = () => {
   return (
-    <div className="row main-header">
-      <div className="col s4 left-header">
-        <div className="row">
-          <div className="col l2">
-            <p className="letter z-depth-2 circle ">b</p>
-          </div>
-          <div className="col l10 menu-dash">
-            <div className="logout">
-              <p>
-                <BsArrowLeft />
-              </p>
-              &nbsp; &nbsp;
-              <p className="log">
-                <a href="#!">Logout</a>
-              </p>
+    <div className="main-header">
+      <div className="row">
+        <div className="col l4 m4 s12 left-header">
+          <div className="row">
+            <div className="col l2 m4 s6">
+              <p className="letter z-depth-2 circle ">b</p>
             </div>
-            <div className="menu">
-              <div>
-                <img src={menu} alt="menu icon" style={{ maxWidth: "20px" }} />
+            <div className="col l10 m8 s6 menu-dash">
+              <div className="logout">
+                <p>
+                  <BsArrowLeft />
+                </p>
+                &nbsp; &nbsp;
+                <p className="log">
+                  <a href="#!">Logout</a>
+                </p>
               </div>
-              <div className="main-menu">
-                Menu / <span className="dashboard">Dashboard</span>{" "}
-                <FiChevronDown />
+              <div className="menu">
+                <div>
+                  <img
+                    src={menu}
+                    alt="menu icon"
+                    style={{ maxWidth: "20px" }}
+                  />
+                </div>
+                <div className="main-menu">
+                  Menu / <span className="dashboard">Dashboard</span>{" "}
+                  <FiChevronDown />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="col s8 right-header">
-        <div className="profile-header">
-          <div></div>
-          <div className="profile">
-            <img
-              src={profile}
-              alt="profile"
-              className="profile-img circle responsive-img"
-            />
+        <div className="col l8 m8 s12 right-header">
+          <div className="profile-header">
+            <div></div>
+            <div className="profile">
+              <img
+                src={profile}
+                alt="profile"
+                className="profile-img circle responsive-img"
+              />
+            </div>
           </div>
-        </div>
-        <div className="user-tasks">
-          <div className="row navlinks">
-            <div className="col s6 manager">
-              <a href="#!">Visitor Manager</a>
-              <a href="#!">Last visit 5mins ago</a>
-            </div>
-            <div className="col s3 nav-item">
-              <a href="#!">Schedule Meeting</a>
-            </div>
-            <div className="col s3 nav-item">
-              <a href="#!">Enquiry Management</a>
+          <div className="user-tasks">
+            <div className="row navlinks">
+              <div className="col l6 m6 s6 manager nav-item">
+                <a href="#!">Visitor Manager</a>
+                <a href="#!">Last visit 5mins ago</a>
+              </div>
+              <div className="align">
+                <div className="col l3 m3 s6 nav-item">
+                  <a href="#!">Schedule Meeting</a>
+                </div>
+                <div className="col l3 m3 s6 nav-item">
+                  <a href="#!">Enquiry Management</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

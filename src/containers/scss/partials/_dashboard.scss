@@ -1,7 +1,7 @@
 .dashboard-content {
   background: #fff;
   border-radius: 10px;
-  padding-top: 10px;
+  // padding: 10px;
   color: #000;
 
   h6 {
@@ -11,11 +11,11 @@
   }
 
   .items-dash {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 10px;
+    padding: 0.625rem;
+  }
+
+  .dash-spacer {
+    padding: 0.625rem 0.625rem;
   }
 
   .item {
@@ -55,6 +55,6 @@
   }
 }
 
-.dash-area {
-  max-width: 960px;
-}
+// .dash-area {
+//   max-width: 960px;
+// }

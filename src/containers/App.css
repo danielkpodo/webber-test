@@ -15,11 +15,21 @@
   background: #1e2b6f;
   height: 100px;
 }
+@media (max-width: 500px) {
+  .main-header .right-header {
+    margin-bottom: 2.5rem;
+  }
+}
 .main-header .right-header .user-tasks {
   background: #455eee;
   margin-left: -11px;
   margin-right: -10px;
   height: 50px;
+}
+@media (max-width: 500px) {
+  .main-header .right-header .user-tasks {
+    height: 65px;
+  }
 }
 
 .logout {
@@ -54,6 +64,7 @@
 .profile-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .profile-header .profile {
   width: 50px;
@@ -64,14 +75,16 @@
 }
 
 .navlinks {
-  padding: 1rem 0.625rem;
+  padding: 1.2rem 0.625rem;
 }
 
 .manager {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 25rem;
-  height: 45px;
+  align-items: center;
+  height: 20px;
 }
 .manager a {
   color: #fff;
@@ -93,28 +106,27 @@
   transition: 400ms ease-in-out;
 }
 
-@media screen and (min-width: 1600px) {
+@media (min-width: 1600px) {
   .content-area {
     max-width: 1400px;
     padding: 3rem;
     margin: 0 auto;
   }
 }
+
 .dashboard-content {
   background: #fff;
   border-radius: 10px;
-  padding-top: 10px;
   color: #000;
 }
 .dashboard-content h6 {
   font-size: 0.875rem;
 }
 .dashboard-content .items-dash {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-right: 10px;
+  padding: 0.625rem;
+}
+.dashboard-content .dash-spacer {
+  padding: 0.625rem 0.625rem;
 }
 .dashboard-content .item {
   padding: 10px;
@@ -148,10 +160,6 @@
 
 .mgt-enquiry h6 {
   margin-left: 30px;
-}
-
-.dash-area {
-  max-width: 960px;
 }
 
 .form-section {
@@ -306,7 +314,6 @@
 
 body {
   background: #f0f5fb;
-  overflow-x: hidden;
   color: #fff;
   font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
@@ -315,16 +322,6 @@ body {
 img {
   max-width: 100%;
   display: block;
-}
-
-.resizer {
-  max-width: 1000px;
-  margin: 0 25px;
-}
-
-.sidebar-resizer {
-  max-width: 400px;
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=App.css.map */

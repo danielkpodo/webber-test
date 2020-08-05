@@ -16,12 +16,20 @@
   .right-header {
     background: $dark-blue;
     height: 100px;
+    @include mobile {
+      margin-bottom: 2.5rem;
+    }
 
     .user-tasks {
       background: $light-blue;
+      //this is what is causing the overflow
       margin-left: -11px;
       margin-right: -10px;
+      //overflow issues with margins
       height: 50px;
+      @include mobile {
+        height: 65px;
+      }
     }
   }
 }
@@ -58,6 +66,7 @@
 .profile-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   .profile {
     width: 50px;
     padding: 5px;
@@ -68,14 +77,16 @@
 }
 
 .navlinks {
-  padding: 1rem 0.625rem;
+  padding: 1.2rem 0.625rem;
 }
 
 .manager {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 25rem;
-  height: 45px;
+  align-items: center;
+  height: 20px;
 
   a {
     color: #fff;
@@ -93,6 +104,7 @@
   a {
     color: #fff;
     opacity: 0.8;
+
     &:hover {
       color: gold;
       opacity: 1;
