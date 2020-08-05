@@ -23,8 +23,8 @@
     .user-tasks {
       background: $light-blue;
       //this is what is causing the overflow
-      margin-left: -10px;
-      margin-right: -10px;
+      margin-left: -11px;
+      margin-right: -11px;
       //overflow issues with margins
 
       height: 50px;
@@ -93,6 +93,10 @@
     color: #fff;
     opacity: 0.8;
 
+    @include phone {
+      font-size: 0.75rem;
+    }
+
     &:hover {
       color: gold;
       opacity: 1;
@@ -105,6 +109,9 @@
   a {
     color: #fff;
     opacity: 0.8;
+    @include phone {
+      font-size: 0.75rem;
+    }
 
     &:hover {
       color: gold;

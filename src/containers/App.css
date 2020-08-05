@@ -22,8 +22,8 @@
 }
 .main-header .right-header .user-tasks {
   background: #455eee;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -11px;
+  margin-right: -11px;
   height: 50px;
 }
 @media (max-width: 500px) {
@@ -90,6 +90,11 @@
   color: #fff;
   opacity: 0.8;
 }
+@media (max-width: 321px) {
+  .manager a {
+    font-size: 0.75rem;
+  }
+}
 .manager a:hover {
   color: gold;
   opacity: 1;
@@ -99,6 +104,11 @@
 .nav-item a {
   color: #fff;
   opacity: 0.8;
+}
+@media (max-width: 321px) {
+  .nav-item a {
+    font-size: 0.75rem;
+  }
 }
 .nav-item a:hover {
   color: gold;
