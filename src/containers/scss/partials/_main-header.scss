@@ -23,9 +23,10 @@
     .user-tasks {
       background: $light-blue;
       //this is what is causing the overflow
-      margin-left: -11px;
+      margin-left: -10px;
       margin-right: -10px;
       //overflow issues with margins
+
       height: 50px;
       @include mobile {
         height: 65px;
